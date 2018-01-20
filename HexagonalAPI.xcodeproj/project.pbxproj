@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77AD1E27244B9625B8800BD3 /* Pods_HexagonalAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0197A83A89DAE86FD7FF2D /* Pods_HexagonalAPI.framework */; };
 		B967CFF92012DB2F00E1BADC /* HexagonalAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B967CFEF2012DB2F00E1BADC /* HexagonalAPI.framework */; };
 		B967CFFE2012DB2F00E1BADC /* HexagonalAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B967CFFD2012DB2F00E1BADC /* HexagonalAPITests.swift */; };
 		B967D0002012DB2F00E1BADC /* HexagonalAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = B967CFF22012DB2F00E1BADC /* HexagonalAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +17,7 @@
 		B967D04920139DA000E1BADC /* Logging in Resources */ = {isa = PBXBuildFile; fileRef = B967D04320139D9F00E1BADC /* Logging */; };
 		B967D04A20139DA000E1BADC /* Monitoring in Resources */ = {isa = PBXBuildFile; fileRef = B967D04420139D9F00E1BADC /* Monitoring */; };
 		B967D04B20139DA000E1BADC /* Testing in Resources */ = {isa = PBXBuildFile; fileRef = B967D04520139D9F00E1BADC /* Testing */; };
+		D9CB32C3C4E1D3E9ACA9AE62 /* Pods_HexagonalAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA83823CA2EA3A52AC0E37BD /* Pods_HexagonalAPITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A7330B37889ED2E80FCA089 /* Pods-HexagonalAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HexagonalAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-HexagonalAPI/Pods-HexagonalAPI.release.xcconfig"; sourceTree = "<group>"; };
+		3E0197A83A89DAE86FD7FF2D /* Pods_HexagonalAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HexagonalAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD068B19A4F07EA283C4C63 /* Pods-HexagonalAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HexagonalAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HexagonalAPI/Pods-HexagonalAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		B967CFEF2012DB2F00E1BADC /* HexagonalAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexagonalAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B967CFF22012DB2F00E1BADC /* HexagonalAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HexagonalAPI.h; sourceTree = "<group>"; };
 		B967CFF32012DB2F00E1BADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +46,9 @@
 		B967D04320139D9F00E1BADC /* Logging */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Logging; sourceTree = "<group>"; };
 		B967D04420139D9F00E1BADC /* Monitoring */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Monitoring; sourceTree = "<group>"; };
 		B967D04520139D9F00E1BADC /* Testing */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Testing; sourceTree = "<group>"; };
+		CA83823CA2EA3A52AC0E37BD /* Pods_HexagonalAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HexagonalAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E432613FC429BD8FCEBBA33D /* Pods-HexagonalAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HexagonalAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HexagonalAPITests/Pods-HexagonalAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4662C20D85A810CEDF668F2 /* Pods-HexagonalAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HexagonalAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HexagonalAPITests/Pods-HexagonalAPITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AD1E27244B9625B8800BD3 /* Pods_HexagonalAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,18 +65,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				B967CFF92012DB2F00E1BADC /* HexagonalAPI.framework in Frameworks */,
+				D9CB32C3C4E1D3E9ACA9AE62 /* Pods_HexagonalAPITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45CE697DAE4A68EF04249C7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FD068B19A4F07EA283C4C63 /* Pods-HexagonalAPI.debug.xcconfig */,
+				3A7330B37889ED2E80FCA089 /* Pods-HexagonalAPI.release.xcconfig */,
+				E432613FC429BD8FCEBBA33D /* Pods-HexagonalAPITests.debug.xcconfig */,
+				F4662C20D85A810CEDF668F2 /* Pods-HexagonalAPITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98FD1BC6AD392FE0489D9FB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E0197A83A89DAE86FD7FF2D /* Pods_HexagonalAPI.framework */,
+				CA83823CA2EA3A52AC0E37BD /* Pods_HexagonalAPITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B967CFE52012DB2F00E1BADC = {
 			isa = PBXGroup;
 			children = (
 				B967CFF12012DB2F00E1BADC /* HexagonalAPI */,
 				B967CFFC2012DB2F00E1BADC /* HexagonalAPITests */,
 				B967CFF02012DB2F00E1BADC /* Products */,
+				45CE697DAE4A68EF04249C7C /* Pods */,
+				98FD1BC6AD392FE0489D9FB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,10 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B967D0032012DB2F00E1BADC /* Build configuration list for PBXNativeTarget "HexagonalAPI" */;
 			buildPhases = (
+				8F9699AA0AFECBC22D3FD1D9 /* [CP] Check Pods Manifest.lock */,
 				B967CFEA2012DB2F00E1BADC /* Sources */,
 				B967CFEB2012DB2F00E1BADC /* Frameworks */,
 				B967CFEC2012DB2F00E1BADC /* Headers */,
 				B967CFED2012DB2F00E1BADC /* Resources */,
+				FB5BF595361C4598C6A1C217 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B967D0062012DB2F00E1BADC /* Build configuration list for PBXNativeTarget "HexagonalAPITests" */;
 			buildPhases = (
+				D0B88E826AEE6098AF5C8DF3 /* [CP] Check Pods Manifest.lock */,
 				B967CFF42012DB2F00E1BADC /* Sources */,
 				B967CFF52012DB2F00E1BADC /* Frameworks */,
 				B967CFF62012DB2F00E1BADC /* Resources */,
+				B3B4667B7952205533E5F6C9 /* [CP] Embed Pods Frameworks */,
+				0079473631E20D46DF18FE3C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +251,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0079473631E20D46DF18FE3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HexagonalAPITests/Pods-HexagonalAPITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F9699AA0AFECBC22D3FD1D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HexagonalAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B4667B7952205533E5F6C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HexagonalAPITests/Pods-HexagonalAPITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HexagonalAPITests/Pods-HexagonalAPITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0B88E826AEE6098AF5C8DF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HexagonalAPITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5BF595361C4598C6A1C217 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HexagonalAPI/Pods-HexagonalAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B967CFEA2012DB2F00E1BADC /* Sources */ = {
@@ -357,6 +485,7 @@
 		};
 		B967D0042012DB2F00E1BADC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD068B19A4F07EA283C4C63 /* Pods-HexagonalAPI.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +507,7 @@
 		};
 		B967D0052012DB2F00E1BADC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7330B37889ED2E80FCA089 /* Pods-HexagonalAPI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -399,6 +529,7 @@
 		};
 		B967D0072012DB2F00E1BADC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E432613FC429BD8FCEBBA33D /* Pods-HexagonalAPITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AF9EJM6PQ;
@@ -413,6 +544,7 @@
 		};
 		B967D0082012DB2F00E1BADC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4662C20D85A810CEDF668F2 /* Pods-HexagonalAPITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AF9EJM6PQ;
