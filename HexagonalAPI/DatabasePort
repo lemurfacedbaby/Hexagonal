@@ -1,0 +1,5 @@
+public class DatabasePort {
+  
+  func writeToDatabase(info: Any) -> String {
+  }
+}
